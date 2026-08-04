@@ -1,9 +1,8 @@
 # Enhanced Overhaul Launcher
 
 Enhanced Overhaul Launcher is a Windows utility dedicated exclusively to
-Enhanced Overhaul Revamped for For The King II. This repository contains the
-complete Python source used to build the standalone launcher executable and the
-authored C# source of the BepInEx plugin for review.
+Enhanced Overhaul Remix for For The King II. This repository contains the
+complete Python source used to build the standalone launcher executable.
 
 ## What the launcher does
 
@@ -68,13 +67,6 @@ assets/              Author-owned launcher icons
 third_party/7zip/    7-Zip 24.09 binaries and license
 mod_source/          Authored BepInEx plugin C# source for review
 ```
-
-## Mod source dependencies
-
-The plugin source references assemblies from a legally installed copy of For
-The King II and BepInEx 5. Those third-party/game assemblies are intentionally
-not redistributed in this repository. See `mod_source/README.md` for the build
-command.
 
 ## Privacy and credentials
 
