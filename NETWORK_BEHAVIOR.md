@@ -11,9 +11,7 @@ request uses an eight-second timeout. No personal information, installation
 paths, hardware information, mod files, game files, logs, telemetry, or
 credentials are transmitted.
 
-If a newer version is found, the launcher displays a prompt. It can open the
-official Nexus Mods Files page in the user's default browser only after the user
-chooses to do so:
+If a newer version is found, the launcher displays a prompt. If a newer version is available, the launcher can open the official Nexus Mods Files page in the user's default web browser, but only after the user explicitly chooses to do so.
 
 ```text
 https://www.nexusmods.com/fortheking2/mods/29?tab=files
