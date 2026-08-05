@@ -36,7 +36,7 @@ launcher and its runtime dependencies into one executable.
 
 ```powershell
 git clone https://github.com/SirPepperPot/EnhancedOverhaulRemixLauncher.git
-cd EnhancedOverhaulLauncher
+cd EnhancedOverhaulRemixLauncher
 
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
