@@ -1,11 +1,10 @@
 # Network Behavior
 
-The launcher makes one small HTTPS request at startup to read the public current
-mod version from:
+The launcher makes one HTTPS request at startup to check the latest publicly available version number.
 
-```text
+It requests:
+
 https://raw.githubusercontent.com/SirPepperPot/EnhancedOverhaulRemixVersion/main/latest.txt
-```
 
 The response is limited to 4 KiB and parsed only for a version number. The
 request uses an eight-second timeout. No personal information, installation
