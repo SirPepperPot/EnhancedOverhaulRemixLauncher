@@ -35,7 +35,7 @@ launcher and its runtime dependencies into one executable.
 ## Reproducible build procedure
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/SirPepperPot/EnhancedOverhaulRemixLauncher.git
 cd EnhancedOverhaulLauncher
 
 py -3.11 -m venv .venv
@@ -65,7 +65,6 @@ src/                 Launcher source
 tests/               Automated tests
 assets/              Author-owned launcher icons
 third_party/7zip/    7-Zip 24.09 binaries and license
-mod_source/          Authored BepInEx plugin C# source for review
 ```
 
 ## Privacy and credentials
