@@ -1,5 +1,6 @@
 # Enhanced Overhaul Launcher
 
+This repository contains the complete source code for the launcher executable submitted to Nexus Mods
 Enhanced Overhaul Launcher is a Windows utility dedicated exclusively to
 Enhanced Overhaul Remix for For The King II. This repository contains the
 complete Python source used to build the standalone launcher executable.
@@ -32,7 +33,7 @@ It does not access game saves or collect telemetry. See
 Players do not need Python or the build dependencies. PyInstaller packages the
 launcher and its runtime dependencies into one executable.
 
-## Reproducible build procedure
+## Building from source
 
 ```powershell
 git clone https://github.com/SirPepperPot/EnhancedOverhaulRemixLauncher.git
