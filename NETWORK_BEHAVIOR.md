@@ -1,6 +1,6 @@
 # Network Behavior
 
-The launcher makes one HTTPS request at startup to check the latest publicly available version number.
+The launcher makes one HTTPS request to GitHub at startup to check the latest publicly available version number.
 
 It requests:
 
