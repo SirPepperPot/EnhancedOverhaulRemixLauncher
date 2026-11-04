@@ -318,6 +318,10 @@ class LauncherWindow(QMainWindow):
         content_layout.addStretch(1)
 
         safety = QLabel(
+            "MULTIPLAYER WARNING: All players need the same EOR version and matching "
+            "modded content/configuration. FTK2 does not automatically synchronize "
+            "UGC between players; mismatches may cause desyncs. "
+            "Verify checks only your local launcher-managed installation.\n\n"
             "Install replaces only packaged files and records every change. "
             "Uninstall restores replaced files and preserves user edits."
         )
