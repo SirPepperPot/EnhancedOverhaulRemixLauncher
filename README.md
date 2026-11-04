@@ -25,6 +25,12 @@ The launcher does not contain the mod package and does not download files from N
 It does not access game saves or collect telemetry. See
 [NETWORK_BEHAVIOR.md](NETWORK_BEHAVIOR.md) for its limited network behavior.
 
+## Multiplayer compatibility
+
+**Every player in an Enhanced Overhaul Remix multiplayer lobby needs the same EOR version and matching custom/modded content and configuration.** For The King II loads UGC configurations locally; the game does not automatically distribute or synchronize them across players. Mismatches can cause desyncs.
+
+Use **Verify** on each computer to check that launcher's locally managed installation. It cannot check other players' installations or guarantee a desync-free session. If issues continue with matching setups, report them for investigation.
+
 ## Requirements for building
 
 - Windows 10 or Windows 11, 64-bit
